@@ -1,12 +1,17 @@
 <template>
   <section>
     <AppBar />
-    
-    <!-- JKT48 Introduction Section -->
     <v-container>
+    <!-- Tombol "Back" -->
+    <v-btn @click="$router.go(-1)" class="ma-2" outlined>
+        Back
+      </v-btn>
+
       <div class="py-6"></div>
       <span class="red--text font-weight-black headline">About JKT48</span>
       <div class="py-3"></div>
+      <!-- Gambar atau video -->
+      <iframe width="875" height="315" src="https://www.youtube.com/embed/5cy3vDjTfFY?si=JXZ5uNhyZINkaQ42" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       <v-card outlined>
         <v-card-text>
           JKT48, sebagaimana grup idol lainnya, memiliki awal yang menarik dan unik dalam pembentukannya. Berikut adalah cerita awal mula pembentukan JKT48:
@@ -18,6 +23,8 @@ Bekerjasama dengan perusahaan hiburan Indonesia, Dentsu Media Group Indonesia da
 Pada 17 Desember 2011, JKT48 resmi dibentuk di Jakarta, Indonesia. Grup ini pertama kali tampil di atas panggung pada 3 Februari 2012, di Balai Sarbini, Jakarta. JKT48 kemudian mendirikan teater sendiri, yang menjadi tempat tetap bagi mereka untuk tampil secara rutin dan berinteraksi langsung dengan penggemar.
 
 Sejak pembentukannya, JKT48 terus tumbuh dan berkembang, meraih popularitas yang besar di Indonesia. Mereka tidak hanya aktif dalam dunia musik, tetapi juga terlibat dalam berbagai kegiatan lainnya, termasuk dunia perfilman, iklan, dan kegiatan amal. Keberhasilan JKT48 tidak hanya menciptakan fenomena idol di Indonesia, tetapi juga membawa keunikan konsep "idols you can meet" ke ranah hiburan Tanah Air.
+
+          <!-- Konten lainnya -->
         </v-card-text>
         <v-card-actions>
         </v-card-actions>
@@ -29,7 +36,7 @@ Sejak pembentukannya, JKT48 terus tumbuh dan berkembang, meraih popularitas yang
     <v-container>
       <div class="py-2"></div>
       <!-- Members data removed -->
-      <!-- You can add more sections or information as needed -->
+      <!-- Tambahkan informasi atau tautan ke halaman anggota -->
     </v-container>
 
     <!-- Other Sections for JKT48 Information -->

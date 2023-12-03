@@ -21,8 +21,9 @@
               text
             ><router-link to="./Member"><span class="white--text">Member</span></router-link></v-btn>
             <v-btn text>
-              <router-link to="./Shop"><span class="white--text">Shop</span></router-link>
-            </v-btn>
+              <router-link to="./Shop"><span class="white--text">Shop</span></router-link></v-btn>
+            <v-btn text>
+              <router-link to="./About"><span class="white--text">About</span></router-link></v-btn>
           </v-toolbar-items>
             <v-avatar class="" color="grey lighten-2" size="36">
               <span class="black--text">FD</span>
