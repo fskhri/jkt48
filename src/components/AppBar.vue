@@ -74,7 +74,8 @@ export default {
           { title: 'Home', icon: 'mdi-home-variant-outline', link:'/' },
           { title: 'Schedule', icon: 'mdi-calendar-range', link:'/Schedule'  },
           { title: 'Member', icon: 'mdi-account-outline', link:'/Member'  },
-          { title: 'Shop', icon: 'mdi-shopping-outline', link:'/404'},
+          { title: 'Shop', icon: 'mdi-shopping-outline', link:'/Shop'},
+          { title: 'About', icon: 'mdi-about-outline', link: '/About'}
         ],
       }
     },

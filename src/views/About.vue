@@ -11,7 +11,7 @@
       <span class="red--text font-weight-black headline">About JKT48</span>
       <div class="py-3"></div>
       <!-- Gambar atau video -->
-      <iframe width="875" height="315" src="https://www.youtube.com/embed/5cy3vDjTfFY?si=JXZ5uNhyZINkaQ42" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="400" height="315" src="https://www.youtube.com/embed/5cy3vDjTfFY?si=JXZ5uNhyZINkaQ42" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       <v-card outlined>
         <v-card-text>
           JKT48, sebagaimana grup idol lainnya, memiliki awal yang menarik dan unik dalam pembentukannya. Berikut adalah cerita awal mula pembentukan JKT48:
