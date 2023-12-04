@@ -25,7 +25,7 @@
     <v-footer color="transparent" padless>
       <v-row justify="center" no-gutters>
         <v-btn v-for="link in links" :key="link" color="white" text rounded class="my-2">{{ link }}</v-btn>
-        <v-col class="red darken-4 py-4 text-center white--text" cols="12">{{ new Date().getFullYear() }} — <strong>Your Shop Name</strong></v-col>
+        <v-col class="red darken-4 py-4 text-center white--text" cols="12">{{ new Date().getFullYear() }} — <strong>JKT48 Merch</strong></v-col>
       </v-row>
     </v-footer>
   </section>
