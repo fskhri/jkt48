@@ -2,10 +2,6 @@
   <section>
     <AppBar />
     <v-container>
-    <!-- Tombol "Back" -->
-    <v-btn @click="$router.go(-1)" class="ma-2" outlined>
-        Back
-      </v-btn>
 
       <div class="py-6"></div>
       <span class="red--text font-weight-black headline">About JKT48</span>
@@ -24,10 +20,7 @@ Pada 17 Desember 2011, JKT48 resmi dibentuk di Jakarta, Indonesia. Grup ini pert
 
 Sejak pembentukannya, JKT48 terus tumbuh dan berkembang, meraih popularitas yang besar di Indonesia. Mereka tidak hanya aktif dalam dunia musik, tetapi juga terlibat dalam berbagai kegiatan lainnya, termasuk dunia perfilman, iklan, dan kegiatan amal. Keberhasilan JKT48 tidak hanya menciptakan fenomena idol di Indonesia, tetapi juga membawa keunikan konsep "idols you can meet" ke ranah hiburan Tanah Air.
 
-          <!-- Konten lainnya -->
         </v-card-text>
-        <v-card-actions>
-        </v-card-actions>
       </v-card>
       <div class="py-3"></div>
     </v-container>

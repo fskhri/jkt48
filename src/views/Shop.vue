@@ -5,7 +5,6 @@
       <div class="py-6"></div>
       <span class="red--text font-weight-black headline">Shop</span>
       <div class="py-2"></div>
-      <!-- Add your benda (items) content here -->
       <v-row>
         <v-col v-for="bendaItem in benda" :key="bendaItem.name" cols="12" sm="6" md="4" lg="3">
           <v-card :color="'grey lighten-1'" class="ma-4" height="200" width="100" @click="toggle">
@@ -46,6 +45,8 @@ export default {
         { name: 'T-shirt', src: 'https://example.com/t-shirt.jpg', link: 'example.com/t-shirt'},
         { name: 'Keychain', src: 'https://example.com/keychain.jpg', link: 'example.com/keychain'},
         { name: 'Poster', src: 'https://example.com/poster.jpg', link: 'example.com/poster'},
+        { name: 'Handuk', src: 'https://example.com/handuk.jpg', link: 'exmaple.com/handuk'},
+        { name: 'Topi', src: 'https://exmaple.com/Topi.jpg', link: 'example.com/topi'}
         // ... (other benda items)
       ],
       links: ['Home', 'News', 'Shop', 'About Us', 'Contact'],

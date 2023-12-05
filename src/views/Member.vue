@@ -1,25 +1,22 @@
 <template>
-    <section>
-      <AppBar />
-      <v-container>
-        <div class="py-6"></div>
-        <span class="red--text font-weight-black headline">Members</span>
-        <div class="py-2"></div>
-        <!-- Add your members content here -->
-        <v-slide-group shwo-arrow v-model="model" class="" mandatory show-arrows="hide-md-and-up">
-          <v-slide-item v-for="member in members" :key="member.name" v-slot:default="{ active, toggle}">
-            <v-card :color="active ? 'red darken-4' : 'grey lighten-1'" class="ma-4" height="520" width="520" @click="toggle">
-              <v-img :src="member.src"></v-img>
-              <v-row class="fill-height" align="center" justify="center">
-                <v-scale-transition>
-                  <v-card-title v-if="active" v-text="member.name"></v-card-title>
-                </v-scale-transition>
-              </v-row>
-            </v-card>
-          </v-slide-item>
-        </v-slide-group>
-        <div class="py-3"></div>
-      </v-container>
+  <section>
+    <AppBar />
+    <v-container>
+      <div class="py-6"></div>
+      <span class="red--text font-weight-black headline">Members</span>
+      <div class="py-2"></div>
+      <v-slide-group v-model="model" class="" mandatory show-arrows="shouldShowArrows">
+      <v-slide-item v-for="member in members" :key="member.name" v-slot:default="{ active, toggle}">
+        <v-card :color="active ? '' : ''" class="ma-4" height="390" width="320" @click="toggle">
+          <v-img :src="member.src"></v-img>
+          <v-row class="fill-width" align="center" justify="center">
+              <v-card-title v-text="member.name"></v-card-title>
+          </v-row>
+        </v-card>
+      </v-slide-item>
+    </v-slide-group>
+      <div class="py-3"></div>
+    </v-container>
 
     <div class="py-5"></div>
     <v-footer color="transparent" padless>
@@ -41,6 +38,7 @@
     },
     data() {
       return {
+        shouldShowArrows: true,
         members: [
         { name: 'Adzana Shaliha', src: 'https://pbs.twimg.com/media/GAU1N_rbIAAruLd?format=jpg&name=medium', link: 'jkt48.com'},
         { name: 'Amanda Sukma', src: 'https://pbs.twimg.com/media/GAU30TgbQAA43x0?format=jpg&name=medium'},
