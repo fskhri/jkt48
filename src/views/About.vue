@@ -28,8 +28,14 @@ Sejak pembentukannya, JKT48 terus tumbuh dan berkembang, meraih popularitas yang
     <!-- JKT48 Members Section -->
     <v-container>
       <div class="py-2"></div>
-      <!-- Members data removed -->
-      <!-- Tambahkan informasi atau tautan ke halaman anggota -->
+      <v-footer color="red darken-4" padless>
+    <v-row justify="center" no-gutters>
+      <v-btn v-for="link in links" :key="link" color="white" text rounded class="my-2">{{ link }}</v-btn>
+      <v-col class="red darken-4 py-4 text-center white--text" cols="12">
+        {{ new Date().getFullYear() }} — <strong>JKT48 Operation Team</strong>
+      </v-col>
+    </v-row>
+  </v-footer>
     </v-container>
 
     <!-- Other Sections for JKT48 Information -->
@@ -50,6 +56,8 @@ export default {
       // Remove member data
     };
   },
+  links: ['Home', 'News', 'Member', 'About JKT48', 'Produser', 'Kontak'],
+        model: null,
   computed: {
     // You can define computed properties specific to the About page here
   },
