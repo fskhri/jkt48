@@ -1,11 +1,12 @@
 <template>
   <section>
     <AppBar />
-    <v-carousel cycle v-model="topNewsIndex" :show-arrows="true" hide-delimiters style="width:100%;">
-      <v-carousel-item v-for="(item, i) in items" :key="i">
-        <v-img :src="item.src"></v-img>
-      </v-carousel-item>
-    </v-carousel>
+    <v-carousel cycle v-model="topNewsIndex" hide-delimiters style="width: 100%"
+    hide-on="sm-and-up" show-on="xs">
+    <v-carousel-item v-for="(item, i) in items" :key="i">
+      <v-img :src="item.src"></v-img>
+    </v-carousel-item>
+  </v-carousel>
     <v-container>
       <div class="py-6"></div>
       <span class="red--text font-weight-black headline">News</span>

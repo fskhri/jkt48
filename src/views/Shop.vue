@@ -7,11 +7,11 @@
       <div class="py-2"></div>
       <v-row>
         <v-col v-for="bendaItem in benda" :key="bendaItem.name" cols="12" sm="6" md="4" lg="3">
-          <v-card :color="'grey lighten-1'" class="ma-4" height="200" width="100" @click="toggle">
+          <v-card :color="'grey lighten-1'" class="ma-4" height="200" width="100" @click="handleItemClick(bendaItem)">
             <v-img :src="bendaItem.src"></v-img>
             <v-row class="fill-height" align="center" justify="center">
               <v-scale-transition>
-                <v-card-title v-text="bendaItem.name"></v-card-title>
+                <v-card-title v-if="model === bendaItem" v-text="bendaItem.name"></v-card-title>
               </v-scale-transition>
             </v-row>
           </v-card>
@@ -22,13 +22,13 @@
 
     <div class="py-5"></div>
     <v-footer color="red darken-4" padless>
-    <v-row justify="center" no-gutters>
-      <v-btn v-for="link in links" :key="link" color="white" text rounded class="my-2">{{ link }}</v-btn>
-      <v-col class="red darken-4 py-4 text-center white--text" cols="12">
-        {{ new Date().getFullYear() }} — <strong>JKT48 Operation Team</strong>
-      </v-col>
-    </v-row>
-  </v-footer>
+      <v-row justify="center" no-gutters>
+        <v-btn v-for="link in links" :key="link" color="white" text rounded class="my-2">{{ link }}</v-btn>
+        <v-col class="red darken-4 py-4 text-center white--text" cols="12">
+          {{ new Date().getFullYear() }} — <strong>JKT48 Operation Team</strong>
+        </v-col>
+      </v-row>
+    </v-footer>
   </section>
 </template>
 
@@ -49,11 +49,16 @@ export default {
         { name: 'Poster', src: 'https://example.com/poster.jpg', link: 'example.com/poster'},
         { name: 'Handuk', src: 'https://example.com/handuk.jpg', link: 'exmaple.com/handuk'},
         { name: 'Topi', src: 'https://exmaple.com/Topi.jpg', link: 'example.com/topi'}
-        // ... (other benda items)
       ],
       links: ['Home', 'News', 'Shop', 'About Us', 'Contact'],
       model: null,
     };
+  },
+  methods: {
+    handleItemClick(bendaItem) {
+      // Handle item click, e.g., redirect to the item's link
+      window.location.href = bendaItem.link;
+    },
   },
 };
 </script>
