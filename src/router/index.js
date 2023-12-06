@@ -5,6 +5,7 @@ import Schedule from '../views/Schedule.vue'; // Corrected import path
 import Member from '../views/Member.vue';
 import Shop from '../views/Shop.vue';
 import News from '../views/News.vue';
+import About from '../views/About.vue';
 
 Vue.use(VueRouter);
 
@@ -42,7 +43,7 @@ const routes = [
   {
     path: '/about',
     name: 'About',
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
+    component: About,
     meta: { title: 'About - JKT48 Fansite'}
   },
 ];
