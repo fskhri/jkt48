@@ -18,8 +18,7 @@
       <v-tab>Release</v-tab>
       <v-tab>Other</v-tab>
       <v-tab>Team JKT48</v-tab>
-      <v-tab>Team Trainee</v-tab> <!-- New tab for Team Trainee -->
-    </v-tabs>
+      </v-tabs>
       <div class="py-3"></div>
       <v-card outlined>
         <v-card-text>
