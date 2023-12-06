@@ -17,6 +17,22 @@
       <div class="py-3"></div>
       <v-card outlined>
         <v-card-text>
+          <span class="font-weight-bold">5 Desember 2023</span><br/>
+          <div class="py-1"></div>
+          <span class="font-weight-medium pink white--text">Other</span><br/>
+          <div class="py-2"></div>
+          <span class="headline red--text text-decoration-none"><a href="#" class="text-decoration-none">Pengumuman Mengenai JKT48 FLOWERFUL GIVEAWAY (Road to JKT48 12th Anniversary Concert)</a></span>
+          <div class="py-3"></div>
+        </v-card-text>
+        <v-card-text>
+          <span class="font-weight-bold">2 Desember 2023</span><br/>
+          <div class="py-1"></div>
+          <span class="font-weight-medium pink white--text">Theater</span><br/>
+          <div class="py-2"></div>
+          <span class="headline red--text text-decoration-none"><a href="#" class="text-decoration-none">Pengumuman Mengenai Pre-Order Digital Photobook “FLOWERFUL” dengan bonus Video Call with JKT48</a></span>
+          <div class="py-3"></div>
+        </v-card-text>
+        <v-card-text>
           <span class="font-weight-bold">1 Desember 2023</span><br/>
           <div class="py-1"></div>
           <span class="font-weight-medium pink white--text">Birthday</span><br/>
@@ -30,22 +46,6 @@
           <span class="font-weight-medium pink white--text">Theater</span><br/>
           <div class="py-2"></div>
           <span class="headline red--text text-decoration-none"><a href="#" class="text-decoration-none">Pengumuman Mengenai Video Call Pengganti Adzana Shaliha, Azizi Asadel, Febriola Sinambela dan Indah Cahya</a></span>
-          <div class="py-3"></div>
-        </v-card-text>
-        <v-card-text>
-          <span class="font-weight-bold">14 November 2023</span><br/>
-          <div class="py-1"></div>
-          <span class="font-weight-medium pink white--text">Event</span><br/>
-          <div class="py-2"></div>
-          <span class="headline red--text text-decoration-none"><a href="#" class="text-decoration-none">Pengumuman Mengenai JKT48 OFC Event “Pizza Bonanza - Flavorful Fun Awaits!” with JKT48</a></span>
-          <div class="py-3"></div>
-        </v-card-text>
-        <v-card-text>
-          <span class="font-weight-bold">10 November 2023</span><br/>
-          <div class="py-1"></div>
-          <span class="font-weight-medium pink white--text">Theater</span><br/>
-          <div class="py-2"></div>
-          <span class="headline red--text text-decoration-none"><a href="#" class="text-decoration-none">Pengumuman Mengenai Penambahan Sesi pada Video Call with JKT48, Digital Photobook “Sayonara Crawl”</a></span>
           <div class="py-3"></div>
         </v-card-text>
         <v-card-actions>

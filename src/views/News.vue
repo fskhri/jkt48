@@ -55,6 +55,8 @@
     data() {
       return {
         schedule: [
+          { date: '5 Desember 2023', category: 'Other', titles: ['Pengumuman Mengenai JKT48 FLOWERFUL GIVEAWAY (Road to JKT48 12th Anniversary Concert)']},
+          { date: '2 Desember 2023', category: 'Theater', titles: ['Pengumuman Mengenai Pre-Order Digital Photobook “FLOWERFUL” dengan bonus Video Call with JKT48']},
           { date: '1 Desember 2023', category: 'Birthday', titles: ['Pengumuman Mengenai Birthday 2-Shot Online Bulan Desember dengan Chekicha'], link: '#', categoryBackgroundColor: 'green'},
           { date: '29 November 2023', category: 'Theater', titles: ['Pengumuman Mengenai Video Call Pengganti Adzana Shaliha, Azizi Asadel, Febriola Sinambela dan Indah Cahya'], link: '#', categoryBackgroundColor: 'blue'},
           { date: '14 November 2023', category: 'Event', titles: ['Pengumuman Mengenai JKT48 OFC Event “Pizza Bonanza - Flavorful Fun Awaits!” with JKT48'], link: '#', categoryBackgroundColor: 'red'},
