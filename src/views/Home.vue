@@ -13,11 +13,6 @@
       <div class="py-2"></div>
       <v-tabs fixed-tabs color="red darken-4">
       <v-tab>All</v-tab>
-      <v-tab>Theater</v-tab>
-      <v-tab>Event</v-tab>
-      <v-tab>Release</v-tab>
-      <v-tab>Other</v-tab>
-      <v-tab>Team JKT48</v-tab>
       </v-tabs>
       <div class="py-3"></div>
       <v-card outlined>
