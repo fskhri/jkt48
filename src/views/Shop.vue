@@ -3,7 +3,7 @@
     <AppBar />
     <v-container>
       <div class="py-6"></div>
-      <span class="red--text font-weight-black headline">Shoping</span>
+      <span class="red--text font-weight-black headline">Shop</span>
       <div class="py-2"></div>
       <v-slide-group v-model="model" class="" mandatory show-arrows="shouldShowArrows">
       <v-slide-item v-for="benda in benda" :key="benda.name" v-slot:default="{ active, toggle}">
