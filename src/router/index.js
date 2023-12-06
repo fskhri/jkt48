@@ -19,7 +19,7 @@ const routes = [
     path: '/schedule', // Corrected path
     name: 'Schedule',
     component: Schedule,
-    meta: { title: 'Schedule - JKT48 Fansite' }, // Example: Adjust the title as needed
+    meta: { title: 'Schdule - JKT48 Fansite' }, // Example: Adjust the title as needed
   },
   {
     path: '/member',
