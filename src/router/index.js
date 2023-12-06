@@ -4,6 +4,7 @@ import Home from '../views/Home.vue';
 import Schedule from '../views/Schedule.vue'; // Corrected import path
 import Member from '../views/Member.vue';
 import Shop from '../views/Shop.vue';
+import News from '../views/News.vue';
 
 Vue.use(VueRouter);
 
@@ -25,6 +26,12 @@ const routes = [
     name: '/Member',
     component: Member,
     meta: { title: 'Member - JKT48 Fansite'}
+  },
+  {
+    path: '/news',
+    name: '/News',
+    component: News,
+    meta: { title: 'News - JKT48 Fansite'}
   },
   {
     path: '/shop',

@@ -28,7 +28,7 @@ Sejak pembentukannya, JKT48 terus tumbuh dan berkembang, meraih popularitas yang
     <!-- JKT48 Members Section -->
     <v-container>
       <div class="py-2"></div>
-      <v-footer color="red darken-4" padless>
+      <v-footer fixed color="red darken-4" padless>
     <v-row justify="center" no-gutters>
       <v-btn v-for="link in links" :key="link" color="white" text rounded class="my-2">{{ link }}</v-btn>
       <v-col class="red darken-4 py-4 text-center white--text" cols="12">

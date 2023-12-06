@@ -50,11 +50,14 @@
         </v-card-text>
         <v-card-actions>
           <v-spacer></v-spacer>
-          <v-btn depressed color="red">
-            <span class="white--text">READ MORE</span>
-          </v-btn>
         </v-card-actions>
       </v-card>
+      <v-layout justify-center>
+      <v-btn outlined color="red">
+        <router-link to="/News"  class="red--text">READ MORE</router-link>
+      </v-btn>
+      <div class="py-3"></div>
+    </v-layout>
       <div class="py-3"></div>
     </v-container>
     <v-container>
