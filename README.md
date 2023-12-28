@@ -11,7 +11,7 @@ Redesign website JKT48 to be look modern, Made with Vue.JS and Vuetify.
 - [x] Homepage
 - [x] Member Profile Page
 - [ ] My Page
-- [ ] And More
+- [x] And More
 
 ## Project setup
 ```
