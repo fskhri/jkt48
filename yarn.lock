@@ -7204,7 +7204,7 @@ vue-loader@^17.0.0, vue-loader@^17.4.0:
     hash-sum "^2.0.0"
     watchpack "^2.4.0"
 
-vue-router@^3.2.0:
+vue-router@^3.6.5:
   version "3.6.5"
   resolved "https://registry.npmjs.org/vue-router/-/vue-router-3.6.5.tgz"
   integrity sha512-VYXZQLtjuvKxxcshuRAwjHnciqZVoXAjTjcqBTz4rKc8qih9g9pI3hbDjmqXaHdgL3v8pV6P8Z335XvHzESxLQ==
