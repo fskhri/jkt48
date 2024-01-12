@@ -19,9 +19,8 @@
       <div class="py-3"></div>
     </v-container>
     
-      <!-- Trainee Members Section -->
       <div class="py-6"></div>
-      <span class="red--text font-weight-black headline">Trainee Members</span>
+      <span class="red--text font-weight-black headline">Trainee</span>
       <div class="py-2"></div>
       <v-slide-group v-model="traineeModel" class="" mandatory show-arrows="shouldShowArrows">
         <v-slide-item v-for="trainee in traineeMembers" :key="trainee.name" v-slot:default="{ active, toggle}">
@@ -68,7 +67,7 @@
         { name: 'Callista Alfia', src: 'https://pbs.twimg.com/media/GAZaiYHa8AAp9gt?format=jpg&name=medium'},
         { name: 'Cornelia Vanisa', src: 'https://pbs.twimg.com/media/GAU4Xb_bcAApcop?format=jpg&name=medium'},
         { name: 'Febriola Sinambela', src: 'https://pbs.twimg.com/media/GAVIj0YaoAAo4Tt?format=jpg&name=medium'},
-        { name: 'Feni Fitriyanti', src: 'https://jkt48.com/profile/feni_fitriyanti.jpg?v=20230116'},
+        { name: 'Feni Fitriyanti', src: 'https://pbs.twimg.com/profile_images/1733819968146513920/DALc0_T__400x400.jpg'},
         { name: 'Fiony Alveria', src: 'https://pbs.twimg.com/media/GAUqENmaUAAvvjk?format=jpg&name=medium'},
         { name: 'Flora Shafiq', src: 'https://pbs.twimg.com/media/GAU4WpZbQAA2Wef?format=jpg&name=medium'},
         { name: 'Freya Jayawardana', src: 'https://pbs.twimg.com/media/GAU2As8b0AA0QM9?format=jpg&name=medium'},
@@ -98,7 +97,7 @@
         { name: 'Callista Alfia', src: 'https://pbs.twimg.com/media/GAZaiYHa8AAp9gt?format=jpg&name=medium'},
         { name: 'Cornelia Vanisa', src: 'https://pbs.twimg.com/media/GAU4Xb_bcAApcop?format=jpg&name=medium'},
         { name: 'Febriola Sinambela', src: 'https://pbs.twimg.com/media/GAVIj0YaoAAo4Tt?format=jpg&name=medium'},
-        { name: 'Feni Fitriyanti', src: 'https://jkt48.com/profile/feni_fitriyanti.jpg?v=20230116'},
+        { name: 'Feni Fitriyanti', src: 'https://pbs.twimg.com/profile_images/1733819968146513920/DALc0_T__400x400.jpg'},
         { name: 'Fiony Alveria', src: 'https://pbs.twimg.com/media/GAUqENmaUAAvvjk?format=jpg&name=medium'},
         { name: 'Flora Shafiq', src: 'https://pbs.twimg.com/media/GAU4WpZbQAA2Wef?format=jpg&name=medium'},
         { name: 'Freya Jayawardana', src: 'https://pbs.twimg.com/media/GAU2As8b0AA0QM9?format=jpg&name=medium'},
