@@ -5,7 +5,7 @@
 Redesign website JKT48 to be look modern, Made with Vue.JS and Vuetify.
 **Static Website / Prototype**
 
-[Demo](https://jeketi.vercel.app/)
+[Demo](https://jkt48-alpha.vercel.app/)
 
 ## To Do
 - [x] Homepage
